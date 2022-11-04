@@ -148,3 +148,40 @@ h1,h2,h3{
     color:var(--secundario);
     font-weight: normal;
 }
+/* Formulario de contacto */
+.formulario{
+    background-color: var(--gris);
+    padding: 2rem;
+    border-radius: 1rem;
+
+}
+.formulario fieldset{
+    border:none;
+}
+
+.formulario legend{
+    text-align: center;
+    font-size:2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:var(--primario);
+}
+
+.campo label {
+    display: block;
+    color:var(--blanco);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.input-text{
+    width: 90%;
+    border:none;
+    padding:1.5rem;
+    border-radius: 1rem;
+}
+
+.w90 {
+    width: 90%;
+}
+
+
